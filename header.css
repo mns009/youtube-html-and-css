@@ -1,0 +1,101 @@
+body{
+   margin: 0px;
+   padding-top: 60px;
+   padding-left: 30px;
+   padding-right: 20px;
+   height: 900px;
+ 
+}
+.header{
+    height: 60px;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+  
+}
+.left-section{
+   
+    
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.utube-icon{
+    height: 20px;
+}
+.middle-section{
+    display: flex;
+   align-items: center;
+    flex:1;
+   
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+.s1{
+    font-size: 16px;
+    flex:1;
+    height: 40px;
+    border-color: rgb(192,192,192);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+.search-button{
+    height: 40px;
+    border-width: 1px;
+
+    width: 70px;
+    margin-left: -3px;
+    margin-right: 10px;
+    border-color: rgb(192,192,192);
+    border-style: solid;
+    background-color:#f7f7f7;
+    
+}
+.m-icon{
+    height: 25px;
+}
+.s-image{
+    height: 25px;
+}
+.mic-button{
+    height: 40px;
+    width: 40px;
+    background-color:#f7f7f7;
+    border-radius: 50%;
+    border-width:0px;
+    
+
+}
+.right-section{
+    width:200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.right-upload{
+    height: 30px;
+}
+.right-apps{
+    height: 30px;
+}
+.right-notification{
+    height: 30px;
+}
+.right-mychannel{
+    height: 30px;
+}
